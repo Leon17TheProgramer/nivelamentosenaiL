@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+:root{
+    --cor-primaria: #DF25F5;
+    --cor-secundaria: #27B9F5;
+    --cor-destaque: #F59427;
+    --cor-verde: #89F527;
+    --cor-preta: #232323;
+    --cor-branca: #ebebeb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: var(--cor-preta);
+}
+.titulo{
+    text-align: center;
+    font-size: 48px;
+    margin: 40px 0 80px;
+    color: var(--cor-branca);
+}
+.image_perfil{
+    border-radius: 50%;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.login-perfil{
+    color: var(--cor-branca);
+}
+.seg-perfil{
+    color: var(--cor-branca);
+}
+.rep-perfil{
+    color: var(--cor-branca);
+}
+.bio-perfil{
+    color: var(--cor-branca);
+}
+.loc-perfil{
+    color: var(--cor-branca);
+}
+.url-perfil{
+    color: var(--cor-branca);
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-inline: 8px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+nav ul li a:hover{
+    text-shadow: 0 2px 4px var(--cor-branca);
+}
+main{
+    text-align: center;
+}
